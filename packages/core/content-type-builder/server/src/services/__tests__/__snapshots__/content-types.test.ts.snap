@@ -2,29 +2,31 @@
 
 exports[`Content types service format ContentType Returns consistent schemas 1`] = `
 {
-  "apiID": "my-name",
-  "plugin": "some-plugin",
-  "schema": {
-    "attributes": {
-      "title": {
-        "type": "string",
-      },
+  "attributes": {
+    "title": {
+      "type": "string",
     },
-    "collectionName": "tests",
+  },
+  "collectionName": "tests",
+  "globalId": undefined,
+  "info": {
     "description": "My description",
     "displayName": "My name",
-    "draftAndPublish": false,
-    "kind": "singleType",
-    "pluginOptions": {
-      "content-manager": {
-        "visible": true,
-      },
-    },
     "pluralName": "my-names",
-    "restrictRelationsTo": null,
     "singularName": "my-name",
-    "visible": true,
   },
+  "kind": "singleType",
+  "modelName": "my-name",
+  "modelType": undefined,
+  "options": {},
+  "plugin": "some-plugin",
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true,
+    },
+  },
+  "restrictRelationsTo": null,
   "uid": "test-uid",
+  "visible": true,
 }
 `;

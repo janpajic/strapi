@@ -40,15 +40,6 @@
       },
       "component": "basic.relation"
     },
-    "dynamic_relations": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "dynamiczone",
-      "components": ["basic.relation", "basic.simple"]
-    },
     "single_relation": {
       "type": "component",
       "repeatable": false,

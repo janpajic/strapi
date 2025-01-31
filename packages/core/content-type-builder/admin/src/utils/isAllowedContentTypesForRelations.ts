@@ -1,6 +1,6 @@
 import type { ContentType } from '../types';
 
-export const isAllowedContentTypesForRelations = (contentType: ContentType) => {
+export const isAllowedContentTypesForRelations = (contentType: Partial<ContentType>) => {
   return (
     contentType.kind === 'collectionType' &&
     (contentType.restrictRelationsTo === null ||
